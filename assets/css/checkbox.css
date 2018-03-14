@@ -698,6 +698,11 @@ body
     margin-top: 1%;
   }
 
+	.last_image img {
+    display: block;
+    width: 100%;
+  }
+
 
   .image-explanation p{
     margin-top: 5%;
