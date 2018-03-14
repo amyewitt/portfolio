@@ -94,8 +94,14 @@ body
 		text-align: center;
 	}
 
-	.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-brand:active{
+	.navbar-default .navbar-brand{
+		border: 1px solid #fff;
+		background-color: #313131;
 		color: #fff;
+		font-size: 12px;
+		padding: 10px 20px;
+		height: auto;
+		font-weight: 200;
 	}
 }
 
