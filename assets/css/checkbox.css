@@ -39,7 +39,7 @@ body
   color: #313131;
 }
 
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-brand:active{
 	color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -94,9 +94,8 @@ body
 		text-align: center;
 	}
 
-  .navbar-default .navbar-brand{
-		margin-left: 15px;
-		background-color: #ffffff
+	.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-brand:active{
+		color: #fff;
 	}
 }
 
