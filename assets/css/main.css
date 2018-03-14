@@ -67,6 +67,12 @@ body
 	text-transform: uppercase;
 }
 
+@media (max-width: 960px) {
+	.header {
+	background-attachment: scroll !important;
+}
+}
+
 /*=================================navbar==========================*/
 .navbar-default .navbar-brand{
 	border: 1px solid #fff;
@@ -143,7 +149,7 @@ body
 	display: table-cell;
 	vertical-align: top;
 	position: relative;
-	padding-top: 15vh;
+	padding-top: 20vh;
 }
 .header-table{
 	display: table;
@@ -154,7 +160,7 @@ body
 	font-size: 64px;
 	letter-spacing: 10px;
 	font-weight: 200;
-	margin-bottom: 10vh;
+	margin-bottom: 5vh;
 }
 .header-subtitle{
 	font-size: 20px;
@@ -245,7 +251,8 @@ body
 }
 .portfolio-item-name{
 	display: inline-block;
-	font-size: 15px;
+	/*change font size below to 15px when 3 projects*/
+	font-size: 22px;
 }
 
 .portfolio-item-name a{
@@ -254,8 +261,11 @@ body
 }
 
 .portfolio-item-name small{
-	font-size: 13px;
+	/*change font size below to 13px when 3 projects and delete font weight*/
+	font-size: 18px;
 	color: #969595;
+	font-weight: 200;
+
 }
 
 .portfolio-item-name a:hover{
@@ -274,6 +284,24 @@ body
   .portfolio .portfolio-item{
 		margin: 15px;
 	}
+
+	.portfolio-item-details{
+		margin: 20px 0px 50px;
+	}
+	.portfolio-item-name{
+		display: inline-block;
+		font-size: 15px;
+	}
+
+	.portfolio-item-name a{
+		text-decoration: none;
+		color:black;
+	}
+
+	.portfolio-item-name small{
+		font-size: 13px;
+		color: #969595;
+	}
 }
 
 /*=================================================
@@ -286,7 +314,7 @@ body
 }
 
 .contact .container{
-    height: 40vh;
+    height: 50vh;
 }
 
 .contact .section-title {
@@ -343,6 +371,8 @@ body
 .contact .container{
     height: 500px;
 }
+
+.
 }
 /*
 
@@ -383,8 +413,17 @@ input.form-control, .message {
 	background: #ffffff;
 }
 
+.about-content {
+	display: block;
+}
+
 .about-img {
+	display: inline-block;
   border-radius: 180px;
+	height: 250px;
+	width: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .about-detail{
@@ -402,9 +441,16 @@ input.form-control, .message {
 	text-align: left;
 }
 
+.section-title{
+	margin-bottom: 8%;
+}
+
 .section-item-detail {
+	display: inline-block;
 	font-size: 16px;
-	color: 121212;
+	line-height: 27px;
+	color: #121212;
+	margin-top: 3%;
 }
 
 .about .row:nth-child(4){
@@ -414,7 +460,7 @@ input.form-control, .message {
 @media (max-width: 960px){
 
 		img.about-img {
-	    width: 100%;
+	    height: 300px;
 			text-align: center;
 	}
 

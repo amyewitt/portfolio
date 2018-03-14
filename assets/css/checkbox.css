@@ -123,6 +123,11 @@ body
 	text-transform: uppercase;
 }
 
+@media (max-width: 960px) {
+	.header {
+	background-attachment: scroll !important;
+}
+
 .intro .section-wrapper {
 	padding-top: 20px;
 	padding-bottom: 80px;
@@ -712,7 +717,7 @@ body
 @media (min-width:1071px) {
 
   .branding-1 {
-    width: 80%;
+    width: 100%;
   }
 
   .branding-1 img {
@@ -813,6 +818,7 @@ body
 
   .last-view-prototype {
     text-align: center;
+		background-color: #ffffff;
   }
 
   @media (min-width:1071px) {
