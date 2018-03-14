@@ -112,7 +112,7 @@ body
 }
 
 .header{
-	background: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, .5)),url('../images/checkbox-header.png');
+	background: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, .5)),url('https://amyewitt.github.io/portfolio/images/checkbox-header.png');
 	background-color: #ebebeb;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -215,7 +215,6 @@ body
 }
 
 .body-copy ul {
-  width: 80%;
   margin-left: 10%;
   padding: 2%;
   background-color: #F5F8FA;
@@ -272,10 +271,39 @@ body
     text-transform: uppercase;
     transition: all .4s ease-in-out;
 }
+
 .btn-sub:hover{
     background-color: #143823;
     border-color: white;
     color: white;
+}
+
+@media (max-width:1070px) {
+.body-copy section ul {
+  margin-left: 10%;
+  padding: 2%;
+  background-color: #F5F8FA;
+  width: 60%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.body-copy ul p {
+  width: 80%;
+  margin-left: 0%
+}
+
+.body-copy li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  font-family:'lato' sans-serif;
+  color:#141414;
+  font-weight:300;
+  font-size:16px;
+  line-height: 28px;
+  letter-spacing:.05px;
+  margin-left: 5%
+}
 }
 
 @media (max-width:1070px) and (min-width:621px) {
@@ -285,20 +313,31 @@ body
     margin: 0 auto;
   }
 
-  section ul {
-		width: 100%;
+	.body-copy section ul {
+	  margin-left: 5%;
+	  padding: 2%;
+	  background-color: #F5F8FA;
+	  width: 90%;
+	  margin-top: 25px;
+	  margin-bottom: 25px;
 	}
 
-  .body-copy li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-    font-family:'lato' sans-serif;
-    color:#141414;
-    font-weight:300;
-    font-size:16px;
-    line-height: 28px;
-    letter-spacing:.05px;
-  }
+	.body-copy ul p {
+	  width: 80%;
+	  margin-left: 0%
+	}
+
+	.body-copy li {
+	  display: list-item;
+	  text-align: -webkit-match-parent;
+	  font-family:'lato' sans-serif;
+	  color:#141414;
+	  font-weight:300;
+	  font-size:16px;
+	  line-height: 28px;
+	  letter-spacing:.05px;
+	  margin-left: 5%
+	}
 }
 
 @media (max-width:620px) {
@@ -307,18 +346,62 @@ body
   }
 
   .body-copy p {
-      width: 90%;
+      width: 100%;
       font-size: 16px;
       letter-spacing: .02;
+			margin-left: 0%;
     }
 
-  section ul {
-		width: 100%;
-	}
+		.body-copy section ul {
+		  margin-left: 0%;
+		  padding: 2%;
+		  background-color: #F5F8FA;
+		  width: 100%;
+		  margin-top: 25px;
+		  margin-bottom: 25px;
+		}
 
-  .body-copy li {
-		width: 100%
-  }
+		.body-copy li {
+		  display: list-item;
+		  text-align: -webkit-match-parent;
+		  font-family:'lato' sans-serif;
+		  color:#141414;
+		  font-weight:300;
+		  font-size:16px;
+		  line-height: 28px;
+		  letter-spacing:.05px;
+		  margin-left: 8%
+		}
+
+		.section-title{
+			font-size: 30px;
+			font-weight: 400;
+			text-transform: uppercase;
+			color: #143823;
+			text-align: left;
+			letter-spacing: 2px;
+		  margin-left: 0%;
+		  margin-top: 20px;
+		}
+
+		.body-copy h4{
+			font-size: 18px;
+			font-weight: 600;
+			text-transform: uppercase;
+			color: #93B092;
+			border-bottom: 2px solid #143823;
+			text-align: left;
+			letter-spacing: 2px;
+			padding-bottom: 10px;
+			margin-bottom: 3%;
+		  width: 100%;
+		  margin-left: 0%;
+		  margin-top: 55px;
+		}
+
+		.body-copy .btn-sub {
+			margin-left: 0%
+		}
 }
 
 /*=================================================
@@ -609,15 +692,12 @@ body
   .style-guide img {
     display: inline-block;
     width: 100%;
-    padding-bottom: 5%;
-    padding-right:1%;
-    padding-left: 1%;
-    padding-top: 1%;
+    margin-bottom: 5%;
+    margin-right:1%;
+    margin-left: 1%;
+    margin-top: 1%;
   }
 
-  .style-guide {
-    width: 100%;
-  }
 
   .image-explanation p{
     margin-top: 5%;
@@ -662,7 +742,6 @@ body
     }
 
     .branding-2 {
-      background-color: #f5f5f5;
       width: 80%;
       margin-left: 8%
     }
@@ -681,28 +760,28 @@ body
   	.branding-1 img {
   		display: inline-block;
   		width: 100%;
-  		padding-bottom: 5%;
   		padding-top:5%;
-  		padding-left: 3%;
-  		padding-right: 2%;
   	}
 
   	.branding-2 {
-  		background-color: #FAFAFA;
   		width: 100%;
   	}
 
   	.branding-2 img {
   		display: inline-block;
   		width: 100%;
-  		padding-bottom: 2%;
-  		padding-top:2%;
   		margin-top: 2%;
-  		padding-left: 3%;
-  		padding-right: 2%;
   	}
-  }
 
+		.style-guide img {
+	    display: inline-block;
+	    width: 100%;
+			margin-bottom: 0%;
+			margin-right:0%;
+			margin-left: 0%;
+			margin-top: 0%;
+  }
+}
   /*=================================================
   ||				Design
   ==================================================*/
@@ -723,10 +802,12 @@ body
     background-color: #ffffff;
   }
 
+	.takeaways .container ul {
+		background-color: #ffffff;
+	}
+
   .last-view-prototype {
-    margin-top: 1%;
-    margin-bottom: 3%;
-    margin-left: 34.5%;
+    text-align: center;
   }
 
   @media (min-width:1071px) {
