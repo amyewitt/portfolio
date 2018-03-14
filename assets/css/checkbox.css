@@ -112,7 +112,7 @@ body
 }
 
 .header{
-	background: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, .5)),url('../clean_code_portfolio/images/checkbox-header.png');
+	background: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, .5)),url('../images/checkbox-header.png');
 	background-color: #ebebeb;
 	background-repeat: no-repeat;
 	background-position: bottom;
