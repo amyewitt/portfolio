@@ -309,16 +309,16 @@ body
 ==================================================*/
 
 .contact{
-    background: #f9f9f9;
+    background: #ffffff;
     text-align: left;
 }
 
 .contact .container{
-    height: 50vh;
+    height: 45vh;
 }
 
 .contact .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 .contact i {
@@ -330,7 +330,7 @@ body
     font-size: 40px;
     display: inline-block;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 10px 0;
     text-align: center;
     float: left;
@@ -410,7 +410,7 @@ input.form-control, .message {
 ==================================================*/
 
 .about{
-	background: #ffffff;
+	background: #f9f9f9;
 }
 
 .about-content {
@@ -479,58 +479,10 @@ input.form-control, .message {
   	padding: 20px 0px;
   }
   .copy{
-  	font-size: 14px;
+  	font-size: 12px;
   	font-weight: 300;
   	color: #929292;
   	padding: 10px 0px;
-  	display: inline-block;
-  }
-  .linkedin{
-  	background: #0077B5;
-  }
-  .twitter{
-  	background: #2CAAE1;
-  }
-  .github{
-  	background: #999;
-  }
-  .rss{
-  	background: #ff8f00;
-  }
-
-  .icon{
-  	height: 40px;
-  	width: 40px;
-  	text-align: center;
-  	padding: 8px;
-  	display: inline-block;
-  	border: 1px solid transparent;
-  	font-size: 18px;
-  }
-  a .icon{
-  	color: #dadada;
-  }
-  /*.social-icon{
-  	float: right;
-  }*/
-  a .icon:hover{
-  	background: transparent;
-  }
-  a .linkedin:hover{
-  	color: #0077B5;
-  	border-color: #0077b5;
-  }
-  a .twitter:hover{
-  	color: #2CAAE1;
-  	border-color: #2CAAE1;
-  }
-  a .github:hover{
-  	color: #999;
-  	border-color: #999;
-  }
-  a .rss:hover{
-  	color: #ff8f00;
-  	border-color: #ff8f00;
   }
 
 
