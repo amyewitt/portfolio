@@ -828,6 +828,24 @@ body
 		background-color: #ffffff;
   }
 
+	.checkbox_logo {
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	.checkbox_logo img{
+		margin-top: 5%;
+		width: 15%;
+	}
+
+	.last_image {
+		text-align: center;
+	}
+
+	.last-image img {
+		size: 80%;
+	}
+
   @media (min-width:1071px) {
     .wireframes-pic {
       width: 100%;
