@@ -834,6 +834,10 @@ section h4 {
 		text-align: center;
 	}
 
+	.pain-point ul {
+		background-color: #ffffff;
+	}
+
 	.pain-point img {
 		border: 1 solid #ebebeb;
 	}
@@ -1071,3 +1075,11 @@ footer img {
 	width: 50px;
 	margin-right:20px;
 }
+
+  @media (max-width:620px) {
+		footer img {
+			height: 35px;
+			width: 35px;
+			margin-right:5px;
+		}
+	}

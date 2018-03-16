@@ -657,3 +657,11 @@ input.form-control, .message {
   		padding: 0 15px;
   	}
   }
+
+	@media (max-width:620px) {
+		footer img {
+			height: 35px;
+			width: 35px;
+			margin-right:5px;
+		}
+	}
