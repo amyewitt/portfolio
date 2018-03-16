@@ -745,8 +745,7 @@ section h4 {
   @media (max-width:1070px) and (min-width:621px) {
 
     .branding-1 {
-      width: 80%;
-      margin-left: 10%
+      width: 100%;
     }
 
     .branding-1 img {
@@ -754,6 +753,13 @@ section h4 {
       width: 80%;
       margin-bottom: 3%;
     }
+
+		.style-guide img {
+	    display: inline-block;
+	    width: 80%;
+	    margin-bottom: 5%;
+	    margin-top: 1%;
+	  }
 
   }
 
@@ -764,17 +770,13 @@ section h4 {
 
   	.branding-1 img {
   		display: inline-block;
-  		width: 100%;
-  		padding-top:5%;
+  		width: 90%;
+  		margin-top:5%;
   	}
 
 		.style-guide img {
 	    display: inline-block;
-	    width: 100%;
-			margin-bottom: 0%;
-			margin-right:0%;
-			margin-left: 0%;
-			margin-top: 0%;
+	    width: 90%;
   }
 }
   /*=================================================
@@ -815,16 +817,21 @@ section h4 {
 	}
 
 	.wireframes-pic {
-		background-color: #F7F9FC
+		background-color: #F7F9FC;
+		width: 100%;
+		text-align: center;
 	}
 
 	.hifi-pic {
 		background-color: #F7F9FC;
+		width: 100%;
+		text-align: Center;
 	}
 
 	.pain-point {
 		background-color: #F7F9FC ;
 		width: 100%;
+		text-align: center;
 	}
 
   .takeaways {
@@ -930,8 +937,7 @@ section h4 {
     @media (max-width:1070px) and (min-width:621px) {
 
       .wireframes-pic {
-        width: 80%;
-        margin-left: 10%
+        width: 100%
       }
 
       .wireframes-pic img {
@@ -953,9 +959,19 @@ section h4 {
         width: 80%;
       }
 
+			.pain-point {
+    		display: block;
+				width: 100%
+    	}
+
+    	.pain-point img {
+    		width: 90%;
+    		display: inline-block;
+    		padding-bottom: 2%
+    	}
+
       .hifi-pic {
-        width: 80%;
-        margin-left: 10%
+        width: 100%;
       }
 
       .hifi-pic img {
@@ -973,11 +989,9 @@ section h4 {
 
     	.wireframes-pic img {
     		display: inline-block;
-    		width: 100%;
+    		width: 90%;
     		padding-bottom: 5%;
     		padding-top:5%;
-    		padding-left: 3%;
-    		padding-right: 2%;
     	}
 
       .hifi-pic {
@@ -986,10 +1000,8 @@ section h4 {
 
     	.hifi-pic img {
     		display: inline-block;
-    		width: 100%;
+    		width: 90%;
     		padding-bottom: 1%;
-    		padding-left: 3%;
-    		padding-right: 2%;
     	}
 
       .pain-point {
@@ -997,7 +1009,7 @@ section h4 {
     	}
 
     	.pain-point img {
-    		width: 100%;
+    		width: 90%;
     		display: inline-block;
     		padding-bottom: 2%
     	}
