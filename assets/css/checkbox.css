@@ -1041,3 +1041,9 @@ section h4 {
 footer {
 	background-color: #F7F9FC;
 }
+
+footer img {
+	height: 50px;
+	width: 50px;
+	margin-right:20px;
+}

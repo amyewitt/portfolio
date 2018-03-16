@@ -469,7 +469,7 @@ input.form-control, .message {
 ==================================================*/
 
 .about{
-	background: #f9f9f9;
+	background: #F7F9FC;
 }
 
 .about-content {
@@ -552,9 +552,15 @@ input.form-control, .message {
   ||				10. Footer
   ==================================================*/
   footer{
-  	background: #eaeaea;
+  	background: #F7F9FC;
   	padding: 20px 0px;
   }
+
+	footer img {
+		height: 50px;
+		width: 50px;
+		margin-right:20px;
+	}
   .copy{
   	font-size: 12px;
   	font-weight: 300;
