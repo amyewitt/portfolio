@@ -220,6 +220,7 @@ body
 	transition: all .6s ease-in-out;
 }
 
+
 .portfolio-img:after {
     content: '\A';
     position: absolute;
@@ -255,6 +256,12 @@ body
 .portfolio-img:hover .port-item{
 	transform: scale(1.1);
 }
+
+.portfolio .section-title{
+	margin-bottom: 30px;
+	padding-bottom: 0px;
+}
+
 .portfolio-item-details{
 	margin: 20px 0px 50px;
 }
@@ -264,7 +271,7 @@ body
 	font-size: 22px;
 }
 
-.portfolio-item-name a{
+a .portfolio-item-name {
 	text-decoration: none;
 	color:black;
 }
@@ -323,11 +330,11 @@ body
 }
 
 .contact .container{
-    height: 45vh;
+    height: 35vh;
 }
 
 .contact .section-title {
-  padding-bottom: 5px;
+  margin-bottom: 4%;
 }
 
 .contact i {
@@ -376,7 +383,7 @@ body
     color: #143823;
 }
 
-@media (max-width:1366px) and (min-width:621px) {
+@media (max-width:1366px) and (min-width:1000px) {
 .contact .container{
 		height: 530px;
 }
@@ -401,7 +408,7 @@ body
 	}
 }
 
-@media (max-width: 621px){
+@media (max-width: 999px){
 .contact .container{
     height: 530px;
 }
@@ -493,8 +500,9 @@ input.form-control, .message {
 	text-align: left;
 }
 
-.section-title{
-	margin-bottom: 8%;
+.about .section-title{
+	margin-bottom: 3%;
+	display: inline-block;
 }
 
 .section-item-detail {
@@ -502,7 +510,7 @@ input.form-control, .message {
 	font-size: 16px;
 	line-height: 27px;
 	color: #121212;
-	margin-top: 3%;
+	margin-top: 2%;
 }
 
 .about .row:nth-child(4){
@@ -519,6 +527,10 @@ input.form-control, .message {
 .about .section-title{
   text-align: left;
   font-size: 24px;
+}
+
+.about .section-title {
+	width: 1500px;
 }
 }
 

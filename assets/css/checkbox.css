@@ -211,7 +211,11 @@ body
 	text-align: left;
 	letter-spacing: 2px;
   margin-left: 10%;
-  margin-top: 20px;
+  margin-top: 8%;
+}
+
+section h4 {
+	margin-top: 4%;
 }
 
 .body-copy p {
@@ -269,7 +273,6 @@ body
 	margin-bottom: 3%;
   width: 80%;
   margin-left: 10%;
-  margin-top: 55px;
 }
 
 .btn-sub {
@@ -613,6 +616,14 @@ body
 ||				Research
 ==================================================*/
 
+.research {
+	background-color:#F7F9FC ;
+}
+
+.research ul {
+	background-color: #ffffff;
+}
+
 .research .competitor-image img{
   width: 80%;
   height: auto;
@@ -628,7 +639,7 @@ body
 
 .user-flows {
   display: block;
-  background-color: #F5F8FA;
+  background-color: #FFFFFF;
   width: 80%;
   margin-top: 2%;
   margin-left: 10%
@@ -694,12 +705,8 @@ body
 ||				Branding
 ==================================================*/
   .branding{
-    background-color:#F5f5f5;
+    background-color:#ffffff;
 }
-
-  .branding ul {
-  	background-color: #ffffff;
-  }
 
 	.image-explanation {
 		margin-top: 5%;
@@ -712,7 +719,7 @@ body
 
   .style-guide img {
     display: inline-block;
-    width: 80%;
+    width: 70%;
     margin-bottom: 5%;
     margin-top: 1%;
   }
@@ -728,12 +735,10 @@ body
 	}
 
 	.branding-1 img {
-		width: 48%;
-		padding-left: 1%;
-		padding-right:1%;
-	}
-
-	@media (min-width:1071){
+		width: 46%;
+		border: 1px solid #737373;
+		margin-left: 1%;
+		margin-right:1%;
 	}
 
 
@@ -775,32 +780,77 @@ body
   /*=================================================
   ||				Design
   ==================================================*/
-  .wireframe-explanation {
+	.design {
+		background-color:#F7F9FC ;
+	}
+
+	.body-copy .design .high-fidelity {
+		margin-bottom: 0px;
+		padding-bottom: 0px
+	}
+
+	.wireframe-explanation {
     margin-bottom: 3%;
   }
 
-  .design ul {
-    width: 80%;
-  }
+	.design ul {
+	  margin-left: 5%;
+	  padding: 2%;
+	  background-color: #ffffff;
+	  width: 90%;
+	  margin-top: 25px;
+	  margin-bottom: 25px;
+	}
+
+	.design li {
+		display: list-item;
+		text-align: -webkit-match-parent;
+		font-family:'lato' sans-serif;
+		color:#141414;
+		font-weight:300;
+		font-size:16px;
+		line-height: 28px;
+		letter-spacing:.05px;
+		margin-left: 8%
+	}
+
+	.wireframes-pic {
+		background-color: #F7F9FC
+	}
+
+	.hifi-pic {
+		background-color: #F7F9FC;
+	}
+
+	.pain-point {
+		background-color: #F7F9FC ;
+		width: 100%;
+	}
 
   .takeaways {
-    background-color: #F5f5f5;
+    background-color: #ffffff;
   }
 
   .takeaways ul {
     width: 80%;
-    background-color: #ffffff;
+    background-color: #F7F9FC ;
   }
 
 	.takeaways .container ul {
-		background-color: #ffffff;
+		background-color: #F7F9FC ;
 		line-height: 27px;
 	}
 
   .last-view-prototype {
     text-align: center;
 		background-color: #ffffff;
+
   }
+
+	.hifi-prototype {
+		background-color: #F7F9FC;
+		padding-bottom: 1%;
+	}
 
 	.checkbox-logo {
 		text-align: center;
@@ -818,7 +868,7 @@ body
 
 	.last-image img {
 		width: 80%;
-		margin-top: -60px;
+		margin-top: 3%;
 	}
 
 	.last-section {
@@ -832,6 +882,10 @@ body
 
 	.last-section btn-sub {
 		margin: 0;
+	}
+
+	.takeaways h4 {
+		margin-top: 4%;
 	}
 
   @media (min-width:1071px) {
@@ -979,11 +1033,11 @@ body
 
 			.last-image img {
 				width: 80%;
-				margin-top: -20px;
+				margin-top: 5%;
 			}
 
     }
 
-.footer {
-	background-color: #ffffff
+footer {
+	background-color: #F7F9FC;
 }
