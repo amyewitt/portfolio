@@ -182,7 +182,7 @@ body
 @media screen and (max-width: 620px) {
   .header{
   	background-attachment: fixed;
-  	height: 55vh;
+  	height: 50vh;
   }
 
   .intro .section-wrapper {

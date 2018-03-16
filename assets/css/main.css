@@ -70,6 +70,7 @@ body
 @media (max-width: 960px) {
 	.header {
 	background-attachment: scroll !important;
+	height: 90vh;
 }
 }
 
@@ -372,7 +373,15 @@ body
     height: 500px;
 }
 
-.
+.contact h3{
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+.contact i {
+    margin-bottom: 20px;
+	}
 }
 /*
 
