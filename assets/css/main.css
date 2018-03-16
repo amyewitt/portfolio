@@ -170,20 +170,28 @@ body
 	width: 60%;
 }
 
-@media screen and (max-width: 1025px) {
+@media (max-width:1070px) and (min-width:621px) {
+
+	.header-wrapper{
+		padding-top: 25vh;
+	}
 
 .header-subtitle{
   width: 80%
 }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 620px) {
+	.header-wrapper{
+		padding-top: 5vh;
+	}
+
 .header-title{
 	font-size: 42px;
 }
 
 .header-subtitle{
-	font-size: 16px;
+	font-size: 14px;
   width: 100%
 }
 }
@@ -319,7 +327,7 @@ body
 }
 
 .contact .section-title {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .contact i {
@@ -343,7 +351,7 @@ body
     color: #fff;
 }
 .contact h3{
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 5px;
   font-size: 15px;
 }
@@ -368,15 +376,46 @@ body
     color: #143823;
 }
 
-@media (max-width: 960px){
+@media (max-width:1366px) and (min-width:621px) {
 .contact .container{
-    height: 500px;
+		height: 530px;
+}
+
+.contact h3{
+	padding-top: 0px;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+
+.contact p{
+  font-size: 10px;
+  color: #969595;
+}
+
+.contact-item {
+	margin-bottom: 20px;
+}
+
+.contact i {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 621px){
+.contact .container{
+    height: 530px;
 }
 
 .contact h3{
   padding-top: 0px;
   padding-bottom: 5px;
   font-size: 15px;
+}
+
+.contact-item {
+	margin-bottom: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
 .contact i {
@@ -466,10 +505,23 @@ input.form-control, .message {
 	margin-top: 50px;
 }
 
-@media (max-width: 960px){
+@media (max-width:1070px) and (min-width:621px){
 
 		img.about-img {
 	    height: 300px;
+			text-align: center;
+	}
+
+.about .section-title{
+  text-align: left;
+  font-size: 24px;
+}
+}
+
+@media (max-width:620px){
+
+		img.about-img {
+	    height: 200px;
 			text-align: center;
 	}
 

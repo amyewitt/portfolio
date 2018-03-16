@@ -969,7 +969,17 @@ body
       }
 
 			.last-section {
+				width: 100%;
+			}
+
+			.last-section p {
 				width: 90%;
+				margin: 5%;
+			}
+
+			.last-image img {
+				width: 80%;
+				margin-top: -20px;
 			}
 
     }
