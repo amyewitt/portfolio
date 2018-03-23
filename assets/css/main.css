@@ -67,11 +67,19 @@ body
 	text-transform: uppercase;
 }
 
-@media (max-width: 960px) {
+@media (max-width:1070px) and (min-width:621px) {
 	.header {
 	background-attachment: scroll !important;
 	height: 90vh;
 }
+}
+@media (max-width:620px) {
+	.header {
+	background-attachment: scroll !important;
+	height: 60vh;
+	background-size: cover;
+}
+
 }
 
 /*=================================navbar==========================*/
@@ -173,7 +181,7 @@ body
 @media (max-width:1070px) and (min-width:621px) {
 
 	.header-wrapper{
-		padding-top: 25vh;
+		padding-top: 20vh;
 	}
 
 .header-subtitle{
@@ -183,7 +191,7 @@ body
 
 @media screen and (max-width: 620px) {
 	.header-wrapper{
-		padding-top: 5vh;
+		padding-top: 2vh;
 	}
 
 .header-title{
@@ -551,16 +559,7 @@ input.form-control, .message {
   /*=================================================
   ||				10. Footer
   ==================================================*/
-  footer{
-  	background: #F7F9FC;
-  	padding: 20px 0px;
-  }
 
-	footer img {
-		height: 50px;
-		width: 50px;
-		margin-right:20px;
-	}
   .copy{
   	font-size: 12px;
   	font-weight: 300;
@@ -646,22 +645,8 @@ input.form-control, .message {
   	.options a{
   		padding: 0 5px;
   	}
-  	footer{
-  		text-align: center;
-  	}
-  	footer .text-right{
-  		text-align: center;
-  	}
 
   	.quote{
   		padding: 0 15px;
   	}
   }
-
-	@media (max-width:620px) {
-		footer img {
-			height: 35px;
-			width: 35px;
-			margin-right:5px;
-		}
-	}

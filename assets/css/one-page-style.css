@@ -20,3 +20,31 @@
 	border: 1px solid #313131;
 	color: #313131;
 }
+
+footer{
+	background: #ebebeb;
+	border-top: 1px solid #ebebeb;
+	padding: 20px 0px;
+}
+
+footer img {
+	height: 30px;
+	width: 30px;
+	margin-right:20px;
+}
+
+@media (max-width: 960px) {
+footer{
+	text-align: left;
+}
+footer .text-right{
+	text-align: left;
+}
+}
+@media (max-width:620px) {
+	footer img {
+		height: 30px;
+		width: 30px;
+		margin-right:5px;
+	}
+}
