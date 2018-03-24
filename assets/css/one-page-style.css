@@ -37,6 +37,11 @@ footer img {
 footer{
 	text-align: left;
 }
+
+footer img {
+	margin-left: 10px;
+}
+
 footer .text-right{
 	text-align: left;
 }
