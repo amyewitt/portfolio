@@ -76,7 +76,7 @@ body
 @media (max-width:620px) {
 	.header {
 	background-attachment: scroll !important;
-	height: 60vh;
+	height: 75vh;
 	background-size: cover;
 }
 
@@ -288,23 +288,15 @@ a .portfolio-item-name {
 .portfolio-item-name small{
 	/*change font size below to 13px when 3 projects and delete font weight*/
 	font-size: 18px;
-	color: #FFFFFF;
+	color: #999999;
 	font-weight: 200;
-
 }
 
 .portfolio-item-name a:hover{
 	color:#C2C2C2;
 }
 
-/*
-@media screen and (max-width: 1200px) {
 
-.portfolio-item-name small{
-		display: none;
-		}
-}
-*/
 @media (max-width: 960px){
   .portfolio .portfolio-item{
 		margin: 15px;
@@ -326,6 +318,11 @@ a .portfolio-item-name {
 	.portfolio-item-name small{
 		font-size: 13px;
 		color: #969595;
+	}
+
+	.portfolio .section-wrapper{
+		padding-top: 60px;
+		padding-bottom: 80px;
 	}
 }
 

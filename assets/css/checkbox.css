@@ -233,7 +233,6 @@ section h4 {
 .body-copy ul {
   margin-left: 10%;
   padding: 2%;
-  background-color: #ffffff;
   width: 60%;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -297,7 +296,6 @@ section h4 {
 .body-copy section ul {
   margin-left: 10%;
   padding: 2%;
-  background-color: #ffffff;
   width: 60%;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -331,7 +329,6 @@ section h4 {
 	.body-copy section ul {
 	  margin-left: 5%;
 	  padding: 2%;
-	  background-color: #ffffff;
 	  width: 90%;
 	  margin-top: 25px;
 	  margin-bottom: 25px;
@@ -370,7 +367,6 @@ section h4 {
 		.body-copy section ul {
 		  margin-left: 0%;
 		  padding: 2%;
-		  background-color: #ffffff;
 		  width: 100%;
 		  margin-top: 25px;
 		  margin-bottom: 25px;
@@ -722,7 +718,7 @@ section h4 {
     width: 70%;
     margin-bottom: 5%;
     margin-top: 1%;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 2px 2px 0 rgba(210, 213, 219, 0.5), 0 2px 6px 0 rgba(210, 213, 219, 0.45);
   }
 
 	.last_image img {
@@ -736,10 +732,10 @@ section h4 {
 	}
 
 	.branding-1 img {
-		width: 46%;
+		width: 44%;
 		margin-left: 1%;
 		margin-right:1%;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 2px 2px 0 rgba(210, 213, 219, 0.5), 0 2px 6px 0 rgba(210, 213, 219, 0.45);
 	}
 
 
@@ -822,42 +818,53 @@ section h4 {
 		width: 100%;
 		text-align: center;
 		padding: 1%;
+		padding-right: 4%;
+		padding-left: 4%;
 	}
 
 	.wireframes-pic img {
 		display: inline-block;
-		width: 100%;
+		width: 95%;
 		margin-bottom: 4%;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 2px 2px 0 rgba(210, 213, 219, 0.5), 0 2px 6px 0 rgba(210, 213, 219, 0.45);
 	}
 
 	.hifi-pic {
 		background-color: #F7F9FC;
 		text-align: center;
 		width: 100%;
-		padding: 1%;
+		padding-top: 1%;
+		padding-bottom: 4%;
+		padding-right: 4%;
+		padding-left: 4%;
 	}
 
 	.hifi-pic img {
 		display: inline-block;
-		width: 100%;
+		width: 95%;
 		margin-bottom: 1%;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 2px 2px 0 rgba(210, 213, 219, 0.5), 0 2px 6px 0 rgba(210, 213, 219, 0.45);
 	}
 
 	.pain-point {
 		background-color: #F7F9FC ;
 		width: 100%;
+		padding-right: 4%;
+		padding-left: 4%;
 		text-align: center;
 	}
 
+
 	.pain-point ul {
-		background-color: #ffffff;
+		background-color: #F7F9FC;
 	}
 
+
+
 	.pain-point img {
-		border: 1 solid #ebebeb;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 1px 2px 0 rgba(210, 213, 219, 0.5), 0 2px 6px 0 rgba(210, 213, 219, 0.45);
+		margin-top: 0;
+		margin-bottom: 5%;
 	}
 
   .takeaways {
@@ -866,7 +873,8 @@ section h4 {
 
   .takeaways ul {
     width: 80%;
-    background-color: #F7F9FC ;
+    background-color: #F7F9FC;
+		margin-bottom: 0px;
   }
 
 	.takeaways .container ul {
@@ -959,7 +967,7 @@ section h4 {
     	}
 
 			.pain-point ul {
-				background-color: #ffffff;
+				background-color: #F7F9FC;
 			}
 
     	.pain-point img {
@@ -1023,7 +1031,7 @@ section h4 {
     	}
 
 			.pain-point ul {
-				background-color: #ffffff;
+				background-color: #F7F9FC;
 			}
 
     	.pain-point img {
