@@ -369,6 +369,11 @@ section h4 {
 			margin-left: 0%;
     }
 
+		.body-copy .section-wrapper{
+			padding-top: 20px;
+			padding-bottom: 0px;
+		}
+
 		.body-copy section ul {
 		  margin-left: 0%;
 		  padding: 2%;
@@ -800,7 +805,7 @@ section h4 {
   	.branding-1 img {
   		display: inline-block;
   		width: 90%;
-  		margin-top:5%;
+  		margin-top:2%;
   	}
 
 		.style-guide img {
