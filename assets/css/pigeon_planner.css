@@ -647,9 +647,18 @@ section h4 {
   margin-bottom: 5%;
 }
 
-.research .personas img {
-  width: 80%;
-	margin-left: 9%;
+.personas {
+	background-color:#F7F9FC ;
+	width: 100%;
+}
+
+.personas img {
+	margin-left: -5%;
+  width: 110%;
+}
+
+.personas .btn {
+	margin-left: 18%
 }
 
 .user-flows {
@@ -684,9 +693,13 @@ section h4 {
 
 @media (max-width:1070px) and (min-width:621px) {
 
-  .research .personas img{
+.personas img{
     display:none
   }
+
+	.personas .btn {
+		margin-left: 15.5%
+	}
 
   .user-flows {
     width: 100%;
@@ -707,9 +720,13 @@ section h4 {
 			margin-left:0%;
   }
 
-  .research .personas img{
+.personas img{
     display:none
   }
+
+	.personas .btn {
+		margin-left: 9%
+	}
 
   .research .user-flows {
     display: none
