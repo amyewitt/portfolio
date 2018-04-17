@@ -119,12 +119,11 @@ body
 
 .header{
 	background: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, .5)),url('../images/pigeon-planner-header.png');
-	background-color: #ebebeb;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 65vh;
+	height: 60vh;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -169,8 +168,13 @@ body
 
 @media (max-width:1070px) and (min-width:621px) {
   .header{
-  	background-attachment: fixed;
-  	height: 82vh;
+		background: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, .5)),url('../images/pigeon-planner-header.png');
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: 175%;
+		height: 80vh;
+		color: #fff;
+		text-transform: uppercase;
   }
 
   .intro .section-wrapper {
@@ -182,7 +186,8 @@ body
 @media screen and (max-width: 620px) {
   .header{
   	background-attachment: fixed;
-  	height: 50vh;
+		background-size: 190%;
+  	height: 63vh;
   }
 
   .intro .section-wrapper {
@@ -844,22 +849,31 @@ section h4 {
 		background-color: #F7F9FC;
 		width: 100%;
 		text-align: center;
-		padding: 1%;
-		padding-right: 4%;
-		padding-left: 4%;
+		padding-left: 2%;
+		padding-right: 2%;
 		margin-top: 0;
-		margin-bottom: 0;
 	}
 
-	.wireframes-pic .perspective{
-		background-color: #999999;
-		width: 100%;
+	.wireframes-pic .row {
+		text-align: center;
 	}
+
+	.wireframes-pic .row img {
+		width: 80%;
+		box-shadow: 0 1px 2px 0 rgba(210, 213, 219, 0.5), 0 2px 6px 0 rgba(210, 213, 219, 0.45);
+	}
+
 
 	.wireframes-pic img {
 		display: inline-block;
-		width: 95%;
-		margin-bottom: 4%;
+		width: 100%;
+		margin-bottom: 10%;
+	}
+
+	.wireframes-pic .perspective img{
+		background-color: #999999;
+		width: 100%;
+		margin:0;
 	}
 
 	.hifi-pic {
@@ -1004,6 +1018,13 @@ section h4 {
         width: 80%;
         margin-bottom: 3%;
       }
+
+			.wireframes-pic .row img {
+				width: 50%;
+				box-shadow: 0 1px 2px 0 rgba(210, 213, 219, 0.5), 0 2px 6px 0 rgba(210, 213, 219, 0.45);
+				margin-bottom: 5%;
+				margin-top: 5%;
+			}
 
 			.wireframes-pic .perspective img {
         display: inline-block;
