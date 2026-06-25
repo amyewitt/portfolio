@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moxie Pulse · Amy Witt</title>
+<meta name="description" content="Amy Witt · Senior Lead Product Designer. Designing clarity in the complex across vertical SaaS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<nav id="nav">
+  <div class="nav-name"><a href="index.html">Amy Witt<b>.</b></a></div>
+  <div class="nav-right">
+    <div class="nav-links"><a href="index.html#work">Work</a><a href="index.html#leadership">Leadership</a><a href="index.html#about">About</a></div>
+    <a href="index.html#contact" class="pill solid sm">Get in touch</a>
+  </div>
+</nav>
+<main>
+  <div class="wrap case-topbar"><a href="index.html#work" class="case-back"><span class="ar">&#8592;</span> All work</a></div>
+  <section class="case-hero">
+  <div class="case-section wide">
+    <div class="case-eyebrow reveal"><span class="n">02</span><span class="co">Moxie · Internal tool · 0&#8594;1</span></div>
+    <h2 class="case-title reveal">Turning scattered call feedback into <em>signal the whole company acts on.</em></h2>
+    <div class="case-facts reveal"><div class="fact"><div class="k">Role</div><div class="v">Designer, builder &amp; PM</div></div><div class="fact"><div class="k">Type</div><div class="v">Internal tool · 0&#8594;1</div></div><div class="fact"><div class="k">Built with</div><div class="v">Claude Code</div></div><div class="fact"><div class="k">Adoption</div><div class="v">Org-wide</div></div></div>
+  </div>
+</section>
+  <div class="case-section">
+<div class="case-block reveal"><span class="eyebrow">The context</span><h3>The signal existed, but only in fragments.</h3>
+<p>We were getting feedback, but it trickled in through <strong>Slack</strong>: sparse, scattered, and never adding up to the full picture. The real signal was sitting in our <strong>call recordings:</strong> provider success managers record in Fathom, the sales team in Attention. The volume just made it impossible to synthesize by hand. We went from roughly <strong>100 calls a week in November 2024 to about 300 a week today.</strong></p>
+<p>So I built <strong>Moxie Pulse</strong>, an internal tool that pulls every request and every piece of praise out of those calls, tags each with the customer and their segment, and lays it all out by domain. I scoped it, designed it, and built it end-to-end with <em>Claude Code.</em></p></div>
+<figure class="figure reveal"><div class="figure-frame"><img class="shot" src="pulse-matrix.jpg" alt="Moxie Pulse request matrix by domain and segment"></div><figcaption class="figcap"><b>Fig 01.</b> Every request across all provider calls, by domain (rows) and segment (Gold+, Silver, Momentum, Growth), with request urgency (Critical through Low) on the right.</figcaption></figure>
+<div class="case-block reveal"><span class="eyebrow">How it works</span><h3>Click the intersection that matters to you.</h3>
+<p>The grid is the interaction. A PM clicks the cell where a <strong>domain</strong> meets a <strong>segment</strong> to filter for exactly what they need. Click <em>Gold+ × Services &amp; Products</em> and Pulse opens precisely those requests, each tagged with the provider, sentiment, domain, and date, and exportable to CSV for a deeper pass.</p></div>
+<figure class="figure reveal"><div class="figure-frame"><img class="shot" src="pulse-requests.jpg" alt="Filtered feature requests for Gold+ and Services and Products"></div><figcaption class="figcap"><b>Fig 02.</b> The same matrix, filtered to Gold+ × Services &amp; Products: the underlying requests, with provider, sentiment, and date. Nothing leaves the tool until someone wants it to.</figcaption></figure>
+<div class="pipeline reveal"><div class="pl-flow"><div class="pl-step"><div class="pl-k">Source</div><div class="pl-t">Call ends</div><div class="pl-s">Fathom (PSM) &amp; Attention (sales) send the transcript by webhook</div></div><div class="pl-arrow">&#8594;</div><div class="pl-step"><div class="pl-k">Extract</div><div class="pl-t">AI parses</div><div class="pl-s">Every request and every bit of praise, tagged to customer + segment</div></div><div class="pl-arrow">&#8594;</div><div class="pl-step"><div class="pl-k">Link</div><div class="pl-t">Auto-match</div><div class="pl-s">Pulse links the call to the provider by name, and remembers my fixes</div></div><div class="pl-arrow">&#8594;</div><div class="pl-step"><div class="pl-k">Surface</div><div class="pl-t">Omni</div><div class="pl-s">Laid out by domain, ready to filter at any intersection</div></div></div><p class="pl-note">I started by hand-linking calls to providers. Then I trained Pulse to link on its own from the provider name in the call, and where it couldn&#39;t, it <b>remembers my correction</b> so I never do it twice.</p></div>
+<figure class="figure reveal"><div class="figure-frame"><img class="shot" src="pulse-feedback.jpg" alt="Moxie Pulse Is it landing feedback view"></div><figcaption class="figcap"><b>Fig 03.</b> A second view flips the question: feedback volume by segment across every domain, so we can see whether what we shipped actually moved providers.</figcaption></figure>
+<div class="pull reveal">For the first time, anyone could see not just <em>what</em> providers were asking for, but <em>how widespread</em> it was.</div>
+<div class="case-block reveal"><span class="eyebrow">The outcome</span><h3>Adopted across the company.</h3>
+<p>Moxie Pulse went org-wide. It cut discovery and research time, pointed PMs straight to the best providers to pull feedback from, and shaped what we prioritized. In one case a sudden <strong>cluster of related reports</strong> surfaced a Sev2 bug we caught early, because for the first time the volume was actually visible.</p></div>
+<div class="stats reveal"><div class="stat"><div class="num"><em data-count="100">0</em>%</div><div class="lab">of PMs use Pulse</div><div class="sub">all six, plus PSMs &amp; marketing</div></div><div class="stat"><div class="num"><em data-count="1">0</em></div><div class="lab">Sev2 caught early, from a cluster of reports</div></div><div class="stat"><div class="num"><em data-count="0">0</em></div><div class="lab">Transcripts tracked by hand, now automated</div></div></div>
+<div class="case-block reveal"><span class="eyebrow">Then I pointed it at sales</span><h3>The same pipeline became company-wide intelligence.</h3>
+<p>Once it worked for provider calls, I built the same thing for sales, pulling from Attention to understand how providers experience their current EMR, where Moxie wins and loses, and what blocks them from switching. Pulse went from a PM tool to a picture of customer needs the <strong>whole org</strong> relies on.</p></div>
+</div>
+  <div class="case-foot">
+    <span class="eyebrow-sm">Next project</span>
+    <a href="case-treatment-plans.html" class="case-next">Living Treatment Plans <span class="ar">&#8594;</span></a>
+  </div>
+</main>
+<footer id="contact">
+  <div class="wrap">
+    <p class="eyebrow reveal" style="margin-bottom:26px">Contact</p>
+    <div class="contact-row reveal">
+      <a href="mailto:amyewitt@gmail.com" class="pill solid">Email me</a>
+      <a href="https://www.linkedin.com/in/amyewitt/" target="_blank" rel="noopener" class="pill">LinkedIn</a>
+      <a href="resume.html" target="_blank" rel="noopener" class="pill">Resume</a>
+    </div>
+    <div class="foot-meta">
+      <span>© 2026 Amy Witt · Senior Lead Product Designer</span>
+      <div class="foot-links">
+        <a href="mailto:amyewitt@gmail.com">amyewitt@gmail.com</a>
+        <a href="https://www.linkedin.com/in/amyewitt/" target="_blank" rel="noopener">in/amyewitt</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
